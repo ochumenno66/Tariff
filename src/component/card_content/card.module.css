@@ -1,0 +1,41 @@
+.wrapper {
+  max-width: 16%;
+  text-align: center;
+  display: grid;
+  gap: 2px;
+  border: 1px solid beige;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.title {
+  font-size: 21px;
+  color: beige;
+  padding: 7px;
+  margin: 0;
+}
+
+.price {
+  font-size: 25px;
+  color: beige;
+  font-weight: bold;
+  padding: 35px 0;
+  margin: 0;
+}
+
+.trafic {
+  color: rgb(78, 78, 78);
+  margin: 0;
+  padding: 10px;
+}
+
+.info {
+  color: rgb(78, 78, 78);
+  margin: 0;
+  padding: 7px;
+}
+
+.selected {
+  box-shadow: 1px 1px 20px rgb(78, 78, 78);
+  transform: scale(1.05);
+}
